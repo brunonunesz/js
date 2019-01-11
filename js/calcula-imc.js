@@ -16,7 +16,7 @@ for(var i = 0; i < pacientes.length; i++){
 	var ehValidoPeso = validaPeso(peso);
 	var ehValidoAltura = validaAltura(altura);
 
-	if(!ehValidPeso){
+	if(!ehValidoPeso){
 		ehValidoPeso = false;
 		tdPeso.textContent = "Peso inválido";
 
